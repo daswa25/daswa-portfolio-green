@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>daswa's portfolio</title>
+    <link href="css/style.css" rel="stylesheet">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <script src="https://kit.fontawesome.com/dca7878338.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <div class="navigator">
+            <nav class="navbar" id="navbar">
+                <a href="#daswa">daswa dayalan</a>
+                <a href="#skillOpen">skills</a>
+                <a href="#hobbies">hobby</a>
+                <a href="deploy.html">deployed</a>
+                <a>save green<i class="fa-solid fa-earth-americas" style="color: rgb(74, 165, 98); margin-top:-13px;"title="plant trees" ></i></a>
+
+            </nav>
+            <!-- smaller  -->
+
+
+            <button class="button-collapse" onclick="functionMyMenu()"> <i class="fa-solid fa-bars"></i></button>
+            <div class="smallerNav" id="smallerNav">
+                <a href="#daswa">daswa dayalan</a>
+                <a href="#skillOpen">skills</a>
+                <a href="#hobbies">hobby</a>
+                <a href="deploy.php">completed task</a>
+                <a>save green<i class="fa-solid fa-earth-americas" style="color: rgb(74, 165, 98); margin-top:-13px;"title="plant trees" ></i></a>
+                <a><button id="close" class="closeMenu" onclick="closeMyMenu()"> <i class="fa-solid fa-x"></i></button></a>
+            </div>
+            <section class="image-container">
+                <div class="image">
+                    <img src="images/PortfolioIMG.jpg" class="imgSrc" onmouseover="hover()">
+                </div>
+
+            </section>
+
+        </div>
+    </header>
+    <section class="nameandqualifivation">
+        <h2 class="name-align" id="daswa"> m.d.daswa dayalan</h2>
+        <h2 class="qualification-align"><abbr title="BATCHELOR OF TECHNOLOGY" style="text-decoration: none;">b tech</abbr></h2>
+
+    </section>
+    <section class="objectives">
+        <div class="objectivesBox">
+            <div class="align-content">
+                <p class="objectives-content">
+                    hi iam daswa , known as m.d daswa dayalan.i have graduated b.tech <abbr title="Information Technology" style="text-decoration: none;">it</abbr> in 2021,
+                    my intrest to became a full stack developer,well in languages like php,java,angular
+                    and core html,css and javascript.
+                    other than my intrest ,i can learn any technologies quickly and detailed.
+                    good in leadership and comunication.
+                </p>
+
+            </div>
+        </div>
+    </section>
+
+    <button class="objectives-button " onmouseover="openMotivation()"> motivation</button>
+    <div class="openMotivation" id="openMotivation">
+        <h2 class="force" style="float: left; margin-top: 25px ;  margin-left: 40px; font-family:Quicksand;"><cite style="padding: 20px;">when in doubt use brute force</cite></h2>
+        <p class="ken" style=" margin-left: 60px;  font-family:Quicksand;"><i>ken thompson</i></p>
+        <p style="padding: 30px ; font-family:Quicksand;">this was initally created by ken thompson which states that try every possiblitties till the output is true</p>
+        <button class="closeMotivation" id="closeMotivation" onmouseover="closeMotivation()"> close </button>
+    </div>
+    <h1 style="font-family: Quicksand; text-transform:  uppercase; text-align: center; font-size: 40px ;">qualification</h1>
+    <section class="qualification-colcontainer">
+
+        <div class="column-qualification">
+            <div class="row">
+                <div class="column">
+                    <div class="sslc-card">
+                        <h3>sslc</h3>
+                        <p>s.b.o.a hr.sec matriculation school</p>
+                        <meter value="71" max=100></meter><span>71%</span>
+                        <p>2014-2015</p>
+                        <p><cite>chennai,tamilnadu</cite></p>
+                    </div>
+                    <h1></h1>
+                </div>
+                <div class="column">
+                    <div class="sslc-card">
+                        <h3>Hsc</h3>
+                        <p>jaya matric hr.sec matriculation school</p>
+                        <meter value="67" max=100></meter><span>67%</span>
+                        <p>2015-2017</p>
+                        <p><cite>tiruvallur,tamilnadu</cite></p>
+                    </div>
+                </div>
+                <div class="column">
+                    <div class="sslc-card">
+                        <h3>B.tech</h3>
+                        <p> veltech hightech engineering college</p>
+                        <meter value="70" max=100></meter><span>7.0 cgpa</span>
+                        <p>2017-2021</p>
+                        <p><cite>chennai,tamilnadu</cite></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </section>
+    <button class="open" id="skillOpen" onmouseover="openskills()"><i class="fa-solid fa-brain"></i></button>
+    <div class=skills>
+
+        <div id="skillset" class="skillset">
+            <h1 style="text-align: center; font-family: Quicksand;"> skills</h1>
+            <a>hyper text markup language <abbr title="57%"> <meter value="95" max="100" style="float: right;"> </meter></abbr></a>
+            <a>cascading style sheet <abbr title="87%"><meter value="87" max="100" style="float: right;"> </meter></abbr></a>
+            <a>javascript <abbr title="67%"><meter value="67" min="40" max="100" style="float: right;"> </meter></abbr></a>
+            <a>angular<abbr title="37%"><meter value="37" max="100" style="float: right;"></meter></abbr></a>
+            <a>java <abbr title="57%"><meter value="57" max="100" style="float: right;"></meter></abbr></a>
+            <a>php <abbr title="77%"><meter value="77" max="100" style="float: right;">77%</meter></abbr></a>
+            <button id="close" class="close" onmouseover="closeSkills()"> <i class="fa-solid fa-xmark"></i></button>
+        </div>
+
+
+    </div>
+    <section class="hobbies" id="hobbies">
+        <div class="rowTwo">
+            <h1 style="text-align: center; color: green;">hobbies</h1>
+            <div class="columnTwo">
+                <p style="text-align: center;">you can see me doing video editing using adobe premier pro</p>
+                <p style="text-align: center; color: green; "><abbr title="video editing"><i class="fa-solid fa-scissors" style="font-size: 15px;"></i></abbr></p>
+            </div>
+            <div class="columnTwo">
+                <p style=" text-align: center;">you can see me doing after effects and illustrator for designing idealogy</p>
+                <p style="text-align: center; color: green;"><abbr title="after effects ,illustrator"><i class="fa-solid fa-pen-nib " style="font-size: 15px;"> </i></abbr></p>
+            </div>
+            <div class="columnTwo">
+                <p style=" text-align:center;">at the ideal time i listens and read to article and music</p>
+                <p style="text-align: center; color: green;"><abbr title="music and article"><i class="fa-solid fa-music" style="font-size: 15px;"></i></abbr></p>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <section class="copyright">
+            <div class="copyright-symbol">&copy;<span class="copyright-content">2022</span>
+                <p class="author">created by daswa dayalan</p>
+                <div class="logo">
+                    follow me<a href="https://www.instagram.com/daswa.mp4/" target="_blank"><i class="fa-brands fa-instagram">
+
+                        </i></a><span class="linked.in"><a href="https://www.linkedin.com/in/daswadayalan-m-d-5b3302171" target="_blank">
+                            <i class="fa-brands fa-linkedin-in"></i></a><a href="https://github.com/daswa25" target="_blank"><i class="fa-brands fa-github"></i></a></span></div>
+            </div>
+
+        </section>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>

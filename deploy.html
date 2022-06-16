@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>deployment</title>
+    <link href="css/style.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/dca7878338.js" crossorigin="anonymous"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,500;1,400&family=Quicksand&display=swap');
+        .ipchecker{
+          
+          width: 590px;
+          height: 450px;
+          
+          border: 2px solid rgba(74, 165, 98, 0.525);
+        }
+        .ipvalidators{
+            box-shadow: 2px 2px 20px 0px rgba(74, 165, 98, 0.525);
+            width: 590px;
+        }
+        .deployment1{
+            margin-top: 130px;
+            display: flex;
+            justify-content: center;
+        }
+        .deployment1-context{
+            width: 650px;
+            height: 550px;
+           
+            
+        }
+        .opendeployment{
+            display:block;
+            margin-left: auto;
+            margin-right: auto;
+            width: 125px;
+            height: 40px;
+            background:rgba(74, 165, 98, 0.525);
+            border: none;
+            color: white;
+        }
+          .opendeployment:hover{
+            box-shadow:2px 2px 20px 0px rgba(74, 165, 98, 0.525) ;
+          }
+        .banner-readmore{
+            width: 450px;
+            height: 290px;
+            margin-left: auto;
+            margin-right: auto;
+            box-shadow:2px 2px 20px 0px rgba(74, 165, 98, 0.525) ;
+             
+        }
+        .banner-readmore p{
+            font-family: 'Quicksand';
+            text-transform: capitalize;
+             text-align:justify;
+             padding: 15px;
+        }
+        .closedep{
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            background:rgba(74, 165, 98, 0.525);
+            border: none;
+            color: white;
+            font-family: 'Quicksand';
+            width: 105px;
+            height: 40px;
+        }
+        h1{
+            font-family: 'Quicksand';
+            text-align: center;
+            text-transform:capitalize ;
+        }
+        h1 b{
+            color:rgba(74, 165, 98, 0.525);
+        }
+        .bulb{
+            width:100px;
+            height: 120px;
+        }
+  
+        @media (max-width:768px){
+            .ipchecker{
+          
+          width: 490px;
+          height: 450px;
+          
+          
+        }
+        .ipvalidators{
+            box-shadow: 2px 2px 20px 0px rgba(74, 165, 98, 0.525);
+            width: 490px;
+        }
+        .bulb-container{
+            width: 350px;
+        }
+        }
+        .copyright{
+    box-shadow: 2px 2px 10px 0px rgba(74, 165, 98, 0.33);
+    margin: -8px -8px -8px -8px;
+    font-family: 'Quicksand';
+    position: relative;
+    text-transform: capitalize;
+   }
+   .bulb-container{
+    
+     width: 450px;
+     display: block;
+     margin-left: auto;
+     margin-right: auto;
+     margin-top: 50px;
+     box-shadow: 2px 2px 20px 0px rgba(252, 246, 68, 0.525); 
+    height: 500px;
+   }
+   .bulb-container:hover{
+           box-shadow: 2px 2px 40px 0px rgba(252, 246, 68, 0.525); 
+   }
+   .bulbframe{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+   }
+   .bulbframe button{
+    height: 30px;
+    background: yellow;
+    border: none;
+    font-family: 'Quicksand';
+
+   }
+   button :hover{
+    box-shadow: 2px 2px 40px 0px rgba(252, 246, 68, 0.525);
+   }
+   .bulb-text{
+    color: rgb(241, 210, 10);
+}
+img{
+    box-shadow: 2px 2px 40px 0px rgba(252, 246, 68, 0.525);
+}
+#demo{
+    font-family: 'Quicksand';
+    text-align: center;
+}
+.bulb-container-antman{
+    
+    width: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    box-shadow: 2px 2px 20px 0px rgb(138, 15, 15); 
+   height: 500px;
+  }
+  .bulb-container-antman:hover{
+          box-shadow: 2px 2px 40px 0px rgb(138, 15, 15); 
+  }
+  .bulb-container-ironman{
+    
+    width: 450px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    box-shadow: 2px 2px 20px 0px rgb(138, 15, 15); 
+   height: 500px;
+  }
+  .bulb-container-antman:hover{
+          box-shadow: 2px 2px 40px 0px rgb(138, 15, 15); 
+  }
+    </style>
+</head>
+<body>
+<header>
+        <div class="navigator">
+            <nav class="navbar" id="navbar">
+                <a href="index.html">daswa dayalan</a>
+                <a href="index.html">skills</a>
+                <a href="index.html">hobby</a>
+                <a href="deploy.html">deployed</a>
+                <a>save green<i class="fa-solid fa-earth-americas" style="color: rgb(74, 165, 98);" title="plant trees"></i></a>
+
+            </nav>
+            <!-- smaller  -->
+
+
+            <button class="button-collapse" onclick="functionMyMenu()"> <i class="fa-solid fa-bars"></i></button>
+            <div class="smallerNav" id="smallerNav">
+                <a href="index.html">daswa dayalan</a>
+                <a href="index.html">skills</a>
+                <a href="index.html">hobby</a>
+                <a href="deploy.html">completed task</a>
+                <a>save green<i class="fa-solid fa-earth-americas" style="color: rgb(74, 165, 98); margin-top:-13px; margin-top:-30px;" title="plant trees" ></i></a>
+                <a><button id="close" class="closeMenu" onclick="closeMyMenu()"> <i class="fa-solid fa-x"></i></button></a>
+                
+            </div>
+            
+
+        </div>
+    </header>
+    
+    <section  class="bulb-task">
+        <div class="bulb-container">
+            <h1 class="bulb-text">javascript task: bulb on and off</h1>
+            <div class="bulbframe">
+         <button class="bulbon" onclick="changeOnOffBulb()"  id="output">turn on/off</button>
+         <img  id="bulb" class="bulb" src="images/pic_bulboff.gif">
+   
+         </div>
+         </div>
+    </section>
+    <section>
+    <div class="bulb-container-antman">
+            <h1 class="bulb-text">javascript task: grow on and shrink</h1>
+            <p id="demo"></p>
+            <div class="bulbframe">
+            
+         <button class="bulbon" onclick="changeSize()" id="size">grow Normal/shrink him</button>
+         
+         <img  id="antman" class="bulb" src="images/ant-s.jpg">
+        
+         </div>
+         </div>
+        
+    </section>
+      
+    <footer>
+        <section class="copyright">
+            <div class="copyright-symbol">&copy;<span class="copyright-content">2022</span>
+            <p class="author">created by daswa dayalan</p>
+            <div class="logo" > 
+                follow me<a href="https://www.instagram.com/daswa.mp4/" target="_blank"><i class="fa-brands fa-instagram" >
+
+            </i></a><span class="linked.in"><a href="https://www.linkedin.com/in/daswadayalan-m-d-5b3302171" target="_blank">
+                <i class="fa-brands fa-linkedin-in" ></i></a><a href="https://github.com/daswa25" target="_blank"><i class="fa-brands fa-github"></i></a></span></div>
+            </div>
+             
+        </section>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
